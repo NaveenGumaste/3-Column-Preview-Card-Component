@@ -1,0 +1,166 @@
+/* Fonts imported=>from Googlefonts.com */
+
+/*Desktop Screen 1440px Responsive Styling*/
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+/* color variables */
+
+:root {
+	/*  Primary */
+
+	--bright-orange: hsl(31, 77%, 52%); /*Grid 1 Color*/
+	--Dark-cyan: hsl(184, 100%, 22%); /*Grid 2 Color*/
+	--Very-dark-cyan: hsl(179, 100%, 13%); /*Grid 3 Color*/
+
+	/*Neutral  */
+
+	--transparent-white: hsla(0, 0%, 100%, 0.75); /*paragraphs*/
+	--very-light-gray: hsl(0, 0%, 95%); /*background, headings, buttons*/
+}
+
+/* Css Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Cards shaping */
+
+body {
+	font-family: "Big Shoulders Display", cursive, sans-serif;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	background-color: var(--very-light-gray);
+}
+
+.container {
+	max-width: 50rem;
+	margin: 0 auto;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	border-radius: 0.5rem;
+	overflow: hidden;
+	position: relative;
+}
+
+/* SEDANS */
+
+.grid1 {
+	padding-right: 2rem;
+	background-color: var(--bright-orange);
+}
+.grid1 img {
+	padding: 3rem 2rem 1rem 2rem;
+}
+.grid1 h1 {
+	color: white;
+	font-size: 2.26rem;
+	padding: 0rem 2rem 1.5rem 2rem;
+}
+.grid1 p {
+	font-family: "Lexend Deca", sans-serif;
+	color: var(--transparent-white);
+	font-size: 0.83rem;
+	line-height: 1.43rem;
+	padding: 0rem 1rem 5rem 02rem;
+}
+
+/* SUVS */
+
+.grid2 {
+	background-color: var(--Dark-cyan);
+}
+.grid2 img {
+	padding: 3rem 1rem 1rem 1.5rem;
+}
+.grid2 h2 {
+	color: white;
+	font-size: 2.26rem;
+	padding: 0rem 2rem 1.2rem 2rem;
+}
+.grid2 p {
+	font-family: "Lexend Deca", sans-serif;
+	color: var(--transparent-white);
+	font-size: 0.9rem;
+	line-height: 1.43rem;
+	padding: 0rem 2rem 5rem 2rem;
+}
+/* LUXURY */
+
+.grid3 {
+	background-color: var(--Very-dark-cyan);
+}
+.grid3 img {
+	padding: 3rem 2rem 1rem 1.5rem;
+}
+.grid3 h3 {
+	color: white;
+	font-size: 2.26rem;
+	padding: 0rem 2rem 1rem 2rem;
+}
+.grid3 p {
+	font-family: "Lexend Deca", sans-serif;
+	color: var(--transparent-white);
+	font-size: 0.8rem;
+	line-height: 1.43rem;
+	margin-right: 1rem;
+	padding: 0rem 2rem 5rem 2rem;
+}
+
+/* buttons */
+
+button {
+	font-family: "Lexend Deca", sans-serif;
+	position: relative;
+	left: 2rem;
+	padding: 1rem 2rem 1rem 2rem;
+	border: none;
+	border-radius: 3rem;
+	margin-bottom: 3rem;
+}
+
+.g1 {
+	color: var(--bright-orange);
+}
+
+.g2 {
+	color: var(--Dark-cyan);
+}
+.g3 {
+	color: var(--Dark-cyan);
+}
+button:hover {
+	cursor: pointer;
+	background-color: transparent;
+	color: var(--very-light-gray);
+	border: 2px solid var(--very-light-gray);
+}
+
+
+/*Mobile Screen 375px Responsive Styling*/
+
+@media only screen and (max-width: 375px) {
+	.wrapper {
+		display: grid;
+		grid-template-columns: 1fr;
+		margin: 4rem 1.5rem 4rem 1.5rem;
+	}
+
+	.grid1 p{
+		padding-bottom: 1rem;
+	}
+	.grid2 p{
+		padding-bottom: 1rem;
+	}
+	.grid3 p{
+		padding-bottom: 1rem;
+	}
+}
