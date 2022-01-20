@@ -23,7 +23,6 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop 1440px](https://snipboard.io/wyiYJX.jpg) <br>
-![Mobile 375px](https://snipboard.io/9CDr2p.jpg)
 
 ### Links
 
