@@ -7,7 +7,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Overview](#overview)
   - [The challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
   - [Screenshot](https://paste.pics/FPPJK)
-- [My process]
+- [My process] (#myprocess)
   - [Built with] ( "HTML5 & Vanilla CSS ")
   - [What I learned] ( "Grid layouts" , "Responsive Designing for diff screens" )
 
