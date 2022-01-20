@@ -4,10 +4,11 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Table of contents
 
-- [Overview](#overview)
+- Overview:
   - [The challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
   - [Screenshot](https://paste.pics/FPPJK)
-- [My process] (#myprocess)
+  
+-  My Process:
   - [Built with] ( "HTML5 & Vanilla CSS ")
   - [What I learned] ( "Grid layouts" , "Responsive Designing for diff screens" )
 
@@ -21,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop 1440px](https://paste.pics/FPPJK)
+![Desktop 1440px](https://paste.pics/FPPJK) <br>
 ![Mobile 375px](https://paste.pics/FPPK7)
 
 ### Links
