@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-3columnpreviewcardcomponent-GGfGaBqbs)
-- Live Site URL: [Add live site URL here](https://monks3columnpreviewcard.netlify.app/)
+- Solution URL: [3-Column Card Preview](https://www.frontendmentor.io/solutions/responsive-3columnpreviewcardcomponent-GGfGaBqbs)
+- Live Site URL: [LIve Webpage](https://monks3columnpreviewcard.netlify.app/)
 
 
 ### Built with
